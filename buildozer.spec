@@ -1,4 +1,22 @@
+[app]
+# (str) Title of your application
+title = Voice Assistant AI
+# (str) Package name
+package.name = voiceassistant
+# (str) Package domain (needed for android packaging)
+package.domain = org.assistant
+# (list) Source files to include (let it empty to include all the files)
+source.include_exts = py,png,jpg,kv,atlas
+# (list) Application requirements
+# comma separated e.g. requirements = sqlite3,kivy
+requirements = python3,kivy
+# (str) Supported orientation (landscape, portrait, all)
+orientation = portrait
+# (list) Permissions
+android.permissions = INTERNET, RECORD_AUDIO
 # (str) Indicate whether you accept the Android SDK license
-# Needed. If unsure, set it to False or True
 android.accept_sdk_license = True
-android.accept_sdk_license = True
+# (str) The Android API to use for targeting
+android.api = 33
+# (int) Minimum API your APK will support
+android.minapi = 21
