@@ -35,3 +35,5 @@ android.api = 33
 
 # (int) Minimum API your APK will support
 android.minapi = 21
+
+android.archs = armeabi-v7a
